@@ -1,6 +1,6 @@
 public class PrimeLinkedList {
 
-    // Node class for singly linked list
+    // First class for singly linked list
     static class Node {
         int data;
         Node next;
@@ -11,7 +11,7 @@ public class PrimeLinkedList {
         }
     }
 
-    // Singly linked list class
+    // The Singly linked list class
     static class SinglyLinkedList {
         Node head;
 
@@ -30,7 +30,7 @@ public class PrimeLinkedList {
             current.next = newNode;
         }
 
-        // Sum all nodes in the list
+        // Sum of all the nodes in the list
         int sum() {
             int total = 0;
             Node current = head;
@@ -42,7 +42,7 @@ public class PrimeLinkedList {
         }
     }
 
-    // Check if a number is prime
+    // Check if a number is prime or no
     static boolean isPrime(int num) {
         if (num <= 1) return false;
         if (num == 2) return true;
@@ -78,3 +78,5 @@ public class PrimeLinkedList {
         System.out.println("Sum of primes with digit '3' between 0 and " + n + " = " + sum);
     }
 }
+
+//All completed. Completed 10/17/2025
